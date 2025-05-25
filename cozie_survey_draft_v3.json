@@ -1,0 +1,265 @@
+{
+  "survey_name": "Cozie Survey Draft v3",
+  "survey_id": "cozie_survey_draft_v3",
+  "survey": [{
+      "question": "Alcohol since last ping?",
+      "question_id": "alcohol_use",
+      "response_options": [{
+          "text": "No",
+          "icon": "x",
+          "icon_background_color": "#E7115E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "nicotine_use"
+        },
+        {
+          "text": "Yes",
+          "icon": "check_mark",
+          "icon_background_color": "#018943",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "nicotine_use"
+        }
+      ]
+    },
+    {
+      "question": "Nicotine since last ping?",
+      "question_id": "nicotine_use",
+      "response_options": [{
+          "text": "No",
+          "icon": "x",
+          "icon_background_color": "#E7115E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "cannabis_use"
+        },
+        {
+          "text": "Yes",
+          "icon": "check_mark",
+          "icon_background_color": "#018943",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "cannabis_use"
+        }
+      ]
+    },
+    {
+      "question": "Cannabis since last ping?",
+      "question_id": "cannabis_use",
+      "response_options": [{
+          "text": "No",
+          "icon": "x",
+          "icon_background_color": "#E7115E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "benzo_use"
+        },
+        {
+          "text": "Yes",
+          "icon": "check_mark",
+          "icon_background_color": "#018943",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "benzo_use"
+        }
+      ]
+    },
+    {
+      "question": "Benzodiazepine since last ping?",
+      "question_id": "benzo_use",
+      "response_options": [{
+          "text": "No",
+          "icon": "x",
+          "icon_background_color": "#E7115E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "impulsive_now"
+        },
+        {
+          "text": "Yes",
+          "icon": "check_mark",
+          "icon_background_color": "#018943",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "impulsive_now"
+        }
+      ]
+    },
+    {
+      "question": "Feeling impulsive now?",
+      "question_id": "impulsive_now",
+      "response_options": [{
+          "text": "No",
+          "icon": "x",
+          "icon_background_color": "#E7115E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "craving"
+        },
+        {
+          "text": "Yes",
+          "icon": "hand_finger_snap",
+          "icon_background_color": "#018943",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "craving"
+        }
+      ]
+    },
+    {
+      "question": "Feeling craving now?",
+      "question_id": "craving",
+      "response_options": [{
+          "text": "No",
+          "icon": "x",
+          "icon_background_color": "#808080",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "visual_cue"
+        },
+        {
+          "text": "Yes",
+          "icon": "flame",
+          "icon_background_color": "#FC9313",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "visual_cue"
+        }
+      ]
+    },
+    {
+      "question": "See any substance cues now?",
+      "question_id": "visual_cue",
+      "response_options": [{
+          "text": "No",
+          "icon": "x",
+          "icon_background_color": "#E7115E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "auditory_cue"
+        },
+        {
+          "text": "Yes",
+          "icon": "human_eye",
+          "icon_background_color": "#018943",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "auditory_cue"
+        }
+      ]
+    },
+    {
+      "question": "Hear any substance cues now?",
+      "question_id": "auditory_cue",
+      "response_options": [{
+          "text": "No",
+          "icon": "x",
+          "icon_background_color": "#E7115E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "olfactory_cue"
+        },
+        {
+          "text": "Yes",
+          "icon": "human_ear",
+          "icon_background_color": "#018943",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "olfactory_cue"
+        }
+      ]
+    },
+    {
+      "question": "Smell any substance cues now?",
+      "question_id": "olfactory_cue",
+      "response_options": [{
+          "text": "No",
+          "icon": "x",
+          "icon_background_color": "#E7115E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "location_cue"
+        },
+        {
+          "text": "Yes",
+          "icon": "human_nose",
+          "icon_background_color": "#018943",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "location_cue"
+        }
+      ]
+    },
+    {
+      "question": "Currently at/near place(s) associated with using?",
+      "question_id": "location_cue",
+      "response_options": [{
+          "text": "No",
+          "icon": "x",
+          "icon_background_color": "#E7115E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "distressed_now"
+        },
+        {
+          "text": "Yes",
+          "icon": "map_location",
+          "icon_background_color": "#018943",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "distressed_now"
+        }
+      ]
+    },
+    {
+      "question": "Distressed now?",
+      "question_id": "distressed_now",
+      "response_options": [{
+          "text": "No",
+          "icon": "x",
+          "icon_background_color": "#E7115E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "sleep_quality"
+        },
+        {
+          "text": "Yes",
+          "icon": "check_mark",
+          "icon_background_color": "#018943",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "sleep_quality"
+        }
+      ]
+    },
+    {
+      "question": "How did you sleep last night?",
+      "question_id": "sleep_quality",
+      "response_options": [{
+          "text": "Not well",
+          "icon": "person_bed_sleep_disrupted",
+          "icon_background_color": "#E7115E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "Alright",
+          "icon": "person_bed_sleep",
+          "icon_background_color": "#FFC31B",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "Pretty well",
+          "icon": "person_wake_up",
+          "icon_background_color": "#018943",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        }
+      ]
+    }
+  ]
+}
