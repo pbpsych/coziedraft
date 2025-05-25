@@ -1,0 +1,68 @@
+{
+  "survey_name": "Cozie Survey Draft v1",
+  "survey_id": "cozie_survey_draft_v1",
+  "survey": [{
+      "question": "Alcohol since last ping?",
+      "question_id": "alcohol_use",
+      "response_options": [{
+          "text": "No",
+          "icon": "x",
+          "icon_background_color": "#E7115E",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "cannabis_use"
+        },
+        {
+          "text": "Yes",
+          "icon": "check_mark",
+          "icon_background_color": "#018943",
+          "use_sf_symbols": true,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "cannabis_use"
+        }
+      ]
+    },
+    {
+      "question": "Cannabis since last ping?",
+      "question_id": "cannabis_use",
+      "response_options": [{
+          "text": "No",
+          "icon": "x",
+          "icon_background_color": "#E7115E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "benzo_use"
+        },
+        {
+          "text": "Yes",
+          "icon": "check_mark",
+          "icon_background_color": "#018943",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "benzo_use"
+        }
+      ]
+    },
+    {
+      "question": "Benzodiazepine since last ping?",
+      "question_id": "benzo_use",
+      "response_options": [{
+          "text": "No",
+          "icon": "x",
+          "icon_background_color": "#E7115E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "Yes",
+          "icon": "check_mark",
+          "icon_background_color": "#018943",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        }
+      ]
+    }
+  ]
+}
